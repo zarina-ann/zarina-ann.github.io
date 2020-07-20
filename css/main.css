@@ -1,26 +1,27 @@
 html,
 body{
-  background-color: #FF9A8B;
-  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  background: #2c3e50!important;
   height: 100%;
 }
 
 h1 {
   font-family: 'Raleway', sans-serif;
   color: #fff;
+  padding-top: 35%;
+  letter-spacing: 3px;
 }
 
 /** Start of Spinner**/
 .spinner {
-  margin: 100px auto 0;
+  margin: 30px auto 0;
   width: 70px;
   text-align: center;
 }
 
 .spinner > div {
-  width: 18px;
-  height: 18px;
-  background-color: #333;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
 
   border-radius: 100%;
   display: inline-block;
